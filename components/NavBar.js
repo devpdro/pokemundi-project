@@ -23,7 +23,7 @@ export default function NavBar() {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/about">
               Sobre
             </Link>
           </li>
