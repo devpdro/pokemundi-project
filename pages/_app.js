@@ -1,9 +1,15 @@
-import Global from "@/styles/Global.scss"
+import Global from "@/styles/Global.scss";
 
-function MyApp ({ Component, pageProps }) {
-    return (
-        <Component { ...pageProps }/>
-    )
+import RepeatComponent from "@/components/RepeatComponent";
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <main>
+      <RepeatComponent>
+        <Component {...pageProps} />
+      </RepeatComponent>
+    </main>
+  );
 }
 
 export default MyApp;
