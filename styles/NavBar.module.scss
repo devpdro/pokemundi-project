@@ -1,3 +1,39 @@
-.titulo {
-    background-color: red;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.2em;
+  margin-bottom: 2em;
+  color: #fff;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      margin-left: 0.5em;
+    }
+  }
+
+  .link_items {
+    display: flex;
+    list-style: none;
+
+    li {
+      margin-right: 1.3em;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px;
+        transition: 0.4s;
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+          border-color: #3b1a5e;
+        }
+      }
+    }
+  }
 }
