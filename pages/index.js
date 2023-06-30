@@ -1,3 +1,5 @@
+import CardPokemon from "@/components/CardPokemon";
+
 import styles from "@/styles/Home.module.scss";
 
 import Image from "next/image";
@@ -37,7 +39,7 @@ export default function Home({ pokemons }) {
 
         <ul>
           {pokemons.map((pokemon) => (
-            <li key={pokemon.id}>{pokemon.name}</li>
+            <CardPokemon key={pokemon.id} pokemon={pokemon} />
           ))}
         </ul>
       </div>
