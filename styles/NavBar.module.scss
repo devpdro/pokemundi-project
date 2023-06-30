@@ -1,4 +1,5 @@
-.navbar {  
+.navbar {
+  background-color: #13131f;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +14,13 @@
 
     h1 {
       margin-left: 0.5em;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 0.1rem;
+
+      span {
+        color: #db080b;
+        letter-spacing: 0.1rem;
+      }
     }
   }
 
@@ -26,12 +34,13 @@
       a {
         color: #fff;
         text-decoration: none;
+        font-size: 1.3rem;
         padding: 5px;
         transition: 0.4s;
         border-bottom: 2px solid transparent;
 
         &:hover {
-          border-color: #3b1a5e;
+          border-color: #db080b;
         }
       }
     }

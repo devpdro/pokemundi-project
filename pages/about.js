@@ -9,10 +9,10 @@ export default function About() {
         <div className={styles.box_text}>
           <h1>Sobre o Projeto</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim quae
-            hic placeat, incidunt neque, aspernatur expedita repellendus natus
-            ea veritatis laudantium, rem et harum unde. Minus facere laudantium
-            repellendus modi.
+            Meu projeto combina a potência do Next.js com a emocionante API de
+            Pokémon. Construí uma aplicação web interativa e divertida que
+            permite explorar detalhes fascinantes sobre os Pokémon, desde suas
+            habilidades e estatísticas até suas evoluções e tipos.
           </p>
         </div>
 
