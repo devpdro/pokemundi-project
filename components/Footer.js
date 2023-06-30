@@ -1,4 +1,4 @@
-import styles from "@/styles/Footer.module.scss"
+import styles from "@/styles/Footer.module.scss";
 
 import Image from "next/image";
 
@@ -12,7 +12,9 @@ export default function Footer() {
           height="40"
           alt="PokeMundi"
         />
-        <h1>Poke<span>Mundi</span> © 2023</h1>
+        <h1>
+          Poke<span>Mundi</span> © 2023
+        </h1>
       </footer>
     </>
   );

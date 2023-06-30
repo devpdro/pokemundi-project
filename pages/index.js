@@ -3,7 +3,6 @@ import CardPokemon from "@/components/CardPokemon";
 import styles from "@/styles/Home.module.scss";
 
 import Image from "next/image";
-import Link from "next/link";
 
 export async function getStaticProps() {
   const pokemons = 156;
@@ -28,7 +27,9 @@ export default function Home({ pokemons }) {
     <>
       <div className={styles.container}>
         <div className={styles.box_title}>
-          <h1><span>Poke</span>Mundi</h1>
+          <h1>
+            <span>Poke</span>Mundi
+          </h1>
           <Image
             src="/images/pokeball.png"
             width="40"
@@ -37,13 +38,11 @@ export default function Home({ pokemons }) {
           />
         </div>
 
-        
-          <ul>
-            {pokemons.map((pokemon) => (
-              <CardPokemon key={pokemon.id} pokemon={pokemon} />
-            ))}
-          </ul>
-        
+        <ul>
+          {pokemons.map((pokemon) => (
+            <CardPokemon key={pokemon.id} pokemon={pokemon} />
+          ))}
+        </ul>
       </div>
     </>
   );

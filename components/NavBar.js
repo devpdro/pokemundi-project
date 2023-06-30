@@ -14,18 +14,16 @@ export default function NavBar() {
             height="40"
             alt="PokeMundi"
           />
-          <h1>Poke<span>Mundi</span></h1>
+          <h1>
+            Poke<span>Mundi</span>
+          </h1>
         </div>
         <ul className={styles.link_items}>
           <li>
-            <Link href="/">
-              Início
-            </Link>
+            <Link href="/">Início</Link>
           </li>
           <li>
-            <Link href="/about">
-              Sobre
-            </Link>
+            <Link href="/about">Sobre</Link>
           </li>
         </ul>
       </nav>
