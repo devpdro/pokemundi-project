@@ -1,10 +1,14 @@
 import styles from "@/styles/About.module.scss";
 
+import Head from "next/head";
 import Image from "next/image";
 
 export default function About() {
   return (
     <>
+      <Head>
+        <title>Sobre o Projeto</title>
+      </Head>
       <main className={styles.container}>
         <div className={styles.box_text}>
           <h1>Sobre o Projeto</h1>

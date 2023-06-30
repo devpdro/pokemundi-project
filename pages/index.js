@@ -2,10 +2,11 @@ import CardPokemon from "@/components/CardPokemon";
 
 import styles from "@/styles/Home.module.scss";
 
+import Head from "next/head";
 import Image from "next/image";
 
 export async function getStaticProps() {
-  const pokemons = 184;
+  const pokemons = 156;
   const api = "https://pokeapi.co/api/v2/pokemon/";
 
   const request = await fetch(`${api}/?limit=${pokemons}`);
@@ -25,6 +26,10 @@ export async function getStaticProps() {
 export default function Home({ pokemons }) {
   return (
     <>
+      <Head>
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+        <title>PokeMundi</title>
+      </Head>
       <div className={styles.container}>
         <div className={styles.box_title}>
           <h1>

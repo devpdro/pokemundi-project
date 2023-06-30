@@ -1,8 +1,7 @@
 import styles from "@/styles/PokemonId.module.scss";
 
+import Head from "next/head";
 import Image from "next/image";
-
-import { space } from "postcss/lib/list";
 
 export async function getStaticProps(context) {
   const id = context.params.pokemonId;
@@ -38,6 +37,9 @@ export async function getStaticPaths() {
 export default function Pokemon({ pokemon }) {
   return (
     <>
+      <Head>
+        <title>Detalhes do Pokemon</title>
+      </Head>
       <div className={styles.container}>
         <h1>{pokemon.name}</h1>
         <Image
