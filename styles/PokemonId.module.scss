@@ -6,17 +6,15 @@
   border: 2px solid #db080b;
   box-shadow: 1px 1px 2px #db080c42;
   padding-top: 0.5rem;
-  color: white;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 
   h1 {
-    color: #fff;
     font-family: "Press Start 2P", cursive;
-    font-weight: 700;
-    padding: 2rem;
+    padding: 2.2rem 0 0.6rem 0;
     text-transform: capitalize;
   }
 
@@ -72,12 +70,9 @@
     display: flex;
     padding-bottom: 0.7rem;
     .power {
-      text-align: center;
-      text-transform: uppercase;
-      justify-content: center;
+      text-transform: uppercase;   
       align-items: center;
       display: flex;
-      color: #fff;
 
       .dynamic {
         display: flex;
@@ -85,12 +80,9 @@
 
         .type {
           padding: 0.6em 1em;
-          color: #fff;
-          background-color: #000;
           margin-right: 0.5em;
           border: 1px solid #ccc;
           border-radius: 6px;
-          text-transform: uppercase;
           font-size: 0.8em;
         }
 

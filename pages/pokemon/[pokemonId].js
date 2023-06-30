@@ -59,7 +59,7 @@ export default function Pokemon({ pokemon }) {
                 <span
                   key={index}
                   className={`${styles.type} ${
-                    styles[`type_${item.type.name}`]
+                    styles["type_" + item.type.name]
                   } `}
                 >
                   {item.type.name}

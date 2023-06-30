@@ -1,5 +1,4 @@
 .box_card {
-  justify-content: center;
   background-color: #13131f;
   align-items: center;
   display: flex;
@@ -10,7 +9,7 @@
   flex-direction: column;
   margin: 3rem auto 0 auto;
   border: 2px solid #db080b;
-  box-shadow: 1px 1px 4px #db080b;
+  box-shadow: 1px 1px 4px #db080c50;
 
   .img {
     width: auto;
@@ -25,15 +24,14 @@
   }
 
   h1 {
-    color: #fff;
     font-size: 1.5rem;
     text-transform: capitalize;
   }
 
   .btn {
     margin-top: 1.2rem;
-    background-color: #db080b;
     color: #fff;
+    background-color: #db080b;
     text-decoration: none;
     font-size: 1rem;
     padding: 0.3rem 1rem;

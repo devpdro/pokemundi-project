@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.scss";
 import Image from "next/image";
 
 export async function getStaticProps() {
-  const pokemons = 156;
+  const pokemons = 184;
   const api = "https://pokeapi.co/api/v2/pokemon/";
 
   const request = await fetch(`${api}/?limit=${pokemons}`);
