@@ -1,6 +1,6 @@
 # PokeMundi 🔴
 ![Alt text](public/readme/post1.png)
-You can access it with this [link.](pokemundi-project.vercel.app)
+You can access it with this [link.](https://pokemundi-project.vercel.app/)
 
 # 💻 About the project 
 My project uses Next.js to create an interactive and responsive web application. Through integration with a Pokémon API, it offers users the possibility to obtain related information about different species such as abilities, stats and types.
