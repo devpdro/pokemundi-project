@@ -1,0 +1,171 @@
+.container {
+  margin: 3.4rem auto 0 auto;
+  background-color: #13131f;
+  width: 400px;
+  border-radius: 1rem;
+  border: 2px solid #db080b;
+  box-shadow: 1px 1px 2px #db080c42;
+  padding-top: 0.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    color: #fff;
+    font-family: "Press Start 2P", cursive;
+    font-weight: 700;
+    padding: 2rem;
+    text-transform: capitalize;
+  }
+
+  .number {
+    padding-bottom: 0.7rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+
+    span {
+      padding: 0.2rem 0.4rem;
+      background-color: #db080b;
+      border-radius: 0.5rem;
+      font-size: 1.1rem;
+      margin-left: 0.4rem;
+    }
+  }
+
+  .img {
+    width: auto;
+    height: 200px;
+  }
+
+  .height {
+    padding: 0.7rem 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+
+    span {
+      padding: 0.2rem 0.4rem;
+      background-color: #db080b;
+      border-radius: 0.5rem;
+      font-size: 1.1rem;
+      margin-left: 0.4rem;
+    }
+  }
+
+  .weight {
+    padding: 0.7rem 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+
+    span {
+      padding: 0.2rem 0.4rem;
+      background-color: #db080b;
+      border-radius: 0.5rem;
+      font-size: 1.1rem;
+      margin-left: 0.4rem;
+    }
+  }
+
+  .box_power {
+    display: flex;
+    padding-bottom: 0.7rem;
+    .power {
+      text-align: center;
+      text-transform: uppercase;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      color: #fff;
+
+      .dynamic {
+        display: flex;
+        margin-left: 0.7rem;
+
+        .type {
+          padding: 0.6em 1em;
+          color: #fff;
+          background-color: #000;
+          margin-right: 0.5em;
+          border: 1px solid #ccc;
+          border-radius: 6px;
+          text-transform: uppercase;
+          font-size: 0.8em;
+        }
+
+        .type_normal {
+          background-color: #aa9;
+        }
+
+        .type_fire {
+          background-color: #f42;
+        }
+
+        .type_water {
+          background-color: #39f;
+        }
+
+        .type_eletric {
+          background-color: #fc3;
+        }
+
+        .type_grass {
+          background-color: #7c5;
+        }
+
+        .type_ice {
+          background-color: #6cf;
+        }
+
+        .type_fighting {
+          background-color: #b54;
+        }
+
+        .type_poison {
+          background-color: #a59;
+        }
+
+        .type_ground {
+          background-color: #db5;
+        }
+
+        .type_flying {
+          background-color: #89f;
+        }
+
+        .type_psychic {
+          background-color: #f59;
+        }
+
+        .type_bug {
+          background-color: #ab2;
+        }
+
+        .type_rock {
+          background-color: #ba6;
+        }
+
+        .type_ghost {
+          background-color: #66b;
+        }
+
+        .type_dragon {
+          background-color: #76e;
+        }
+
+        .type_dark {
+          background-color: #754;
+        }
+
+        .type_steel {
+          background-color: #aab;
+        }
+
+        .type_fairy {
+          background-color: #e9e;
+        }
+      }
+    }
+  }
+}
