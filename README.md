@@ -1,3 +1,40 @@
+# Foddies 🍽️
+![Alt text](images/readme/post1.png)
+You can access it with this [link.](https://projeto-food-two.vercel.app/)
+# 💻 About the project 
+Meu projeto combina a potência do Next.js com a emocionante API de Pokémon. Construí uma aplicação web interativa e divertida que permite explorar detalhes fascinantes sobre os Pokémon, desde suas habilidades e estatísticas até suas evoluções e tipos.
+# 🚀 Technologies 
+Foddies was developed using the following technologies:
+
+- HTML5
+- SCSS
+- JavaScript
+- React.js
+- Next.js
+- Vercel
+# 🛠️ How to install the project and run it on your machine
+To install and run the project, follow the steps below:
+
+- Clone this repository to your local environment:
+```bash
+git clone https://github.com/devpdro/projeto-food.git
+```
+- Navigate to the project directory:
+```bash
+cd seu-projeto
+```
+- Install the project's dependencies:
+```bash
+npm install
+```
+- Start the development server:
+```bash
+npm start
+```
+- This will start the local server and provide a URL to view the project in your browser.
+```bash
+Local: http://localhost:3000
+```
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
