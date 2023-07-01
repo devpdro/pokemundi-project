@@ -15,7 +15,7 @@ PokeMundi was developed using the following technologies:
 - Next.js
 - Vercel
   
-# 📂 How to install the project on your machine
+# 🛠️ How to install the project on your machine
 To install and run the project, follow the steps below:
 
 <h3>Before you begin, make sure you have the following tools installed on your system:</h3>
