@@ -53,6 +53,8 @@ npm install
 npm start
 ```
 
+Made with ❤️ by Victor Hugo 👋
+
 - This will start the local server and provide a URL to view the project in your browser.
   
 ```bash
