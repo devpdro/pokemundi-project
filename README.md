@@ -59,4 +59,4 @@ npm start
 Local: http://localhost:3000
 ```
 
-Made with ❤️ by Victor Hugo 👋****
+Made with ❤️ by Victor Hugo 👋
